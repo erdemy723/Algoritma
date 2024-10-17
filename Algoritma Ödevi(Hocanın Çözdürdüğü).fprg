@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="hocaninc&#246;z.or."/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-16 10:27:59 &#214;S"/>
+        <attribute name="created" value="REVMTDtERVNLVE9QLVM5UVA0UFA7MjAyNC0xMC0xNjsxMDoxMjozNyDDllM7Mjc5OQ=="/>
+        <attribute name="edited" value="REVMTDtERVNLVE9QLVM5UVA0UFA7MjAyNC0xMC0xNjsxMDoyNzo1OSDDllM7MTsyOTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dogumYil, guncelYil, yas, sayi" type="Integer" array="False" size=""/>
+            <input variable="dogumYil"/>
+            <output expression="&quot;Do&#287;um y&#305;l&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="guncelYil"/>
+            <output expression="&quot;G&#252;ncel y&#305;l&#305; giriniz&quot;" newline="True"/>
+            <assign variable="yas" expression="guncelYil-dogumYil"/>
+            <if expression="yas%2=0">
+                <then>
+                    <output expression="&quot;Say&#305; &#231;ifttir&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Say&#305; Tektir&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
